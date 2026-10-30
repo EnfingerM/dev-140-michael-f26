@@ -24,19 +24,19 @@ h2, ul{
   gap: 16px;
   margin-top: 22px;
 }
-@media (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .card-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
-@media (min-width: 640px) {
+@media screen and (max-width: 640px) {
   .card-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
-@media (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .card-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
